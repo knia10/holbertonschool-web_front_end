@@ -38,8 +38,3 @@ a {
 .section-tagline {
     color:var(--color-primary);
 }
-
-
-body {
-    font-family: 'Courier New', Courier, monospace;
-}
