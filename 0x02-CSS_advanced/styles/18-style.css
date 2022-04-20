@@ -44,7 +44,7 @@
     /* para que los links esten en linea (inline block) */
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary)
+    --nav-item-link-hover: var(--color-primary);
 }
 
 *, *:before, *:after {
@@ -146,7 +146,7 @@ a:active {
 .nav {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     text-align: center;
 }
 
@@ -164,6 +164,6 @@ a:active {
     padding: 0.5rem 1rem;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
