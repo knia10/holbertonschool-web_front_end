@@ -43,7 +43,7 @@
     --nav-item-letter-spacing: 0.04rem;
     /* para que los links esten en linea (inline block) */
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 3rem 0;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary)
 }
 
@@ -161,7 +161,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .nav-link:hover {
