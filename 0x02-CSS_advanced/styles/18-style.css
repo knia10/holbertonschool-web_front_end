@@ -114,9 +114,6 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
 
 .section-title {
     font-family: var(--font-family-title);
@@ -137,6 +134,10 @@ a:active {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
 
 .navbar-menu {
