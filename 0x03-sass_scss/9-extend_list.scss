@@ -1,0 +1,23 @@
+/* assigns:
+* Font size 12px to all tags of class .info
+* Text color #00FF00 to all tags of class .success and extend style of the class .info
+* Text color #FF0000 to all tags of class .warning and extend style of the class .info
+*/
+
+%extends-methods {
+    font-size: 12px;
+}
+
+.info {
+    @extend %extends-methods;
+}
+
+.success {
+    @extend %extends-methods;
+    color: #00FF00;
+}
+
+.warning {
+    @extend %extends-methods;
+    color: #ff0000;
+}
