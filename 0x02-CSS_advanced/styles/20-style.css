@@ -190,7 +190,7 @@ ul.row {
     padding: 0.5rem;
 }
 
-row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
