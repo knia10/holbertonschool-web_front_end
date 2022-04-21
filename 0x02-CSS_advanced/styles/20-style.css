@@ -191,10 +191,6 @@ ul.row {
 }
 
 row::after {
-    /*
-    no content, displayed as a table,
-    do not allow any floating elements on either side
-    */
     content: "";
     display: table;
     clear: both;
