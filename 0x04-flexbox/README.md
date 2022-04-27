@@ -1,5 +1,5 @@
 # 0x04. Flexbox
-![img](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/997addf54bcdccc5a096.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220427T232452Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0f41eeea4d5003c67c41ca033d86da00a594596cadd7cb95fe1286ee6c02196a)
+<img src = "https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/997addf54bcdccc5a096.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220427T232452Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0f41eeea4d5003c67c41ca033d86da00a594596cadd7cb95fe1286ee6c02196a" width = 400px length = 300px>
 
 ## Learning Objectives
 ### General 📖
