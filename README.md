@@ -7,6 +7,7 @@
 |0x03. Sass & Scss | [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x03-sass_scss] |
 | 0x04. Flexbox | [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x04-Flexbox] |
 | 0x05-form | [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x05-form] |
+| 0x06. Responsive design | [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x06-responsive_design] |
 
 
 By **Estefania Ruiz** 🦌 From **Holberton School** 🪐
