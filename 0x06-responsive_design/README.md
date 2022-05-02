@@ -1,5 +1,5 @@
 # 0x06. Responsive design
-<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fthemeover.com%2F&psig=AOvVaw0u8t4VdUgwNgj96LVi8zl7&ust=1651605225580000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPDEgsjDwfcCFQAAAAAdAAAAABAF" width = 800px length = 300px>
+<img src = "https://themeover.com/wp-content/themes/themeover/images/2020-redesign/1.25/Responsive.png" width = 800px length = 300px>
 
 ## Learning Objectives
 ### General 📖
