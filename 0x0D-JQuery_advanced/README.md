@@ -15,4 +15,4 @@
 - 🚩 All your files should end with a new line
 - 🚩 A `README.md` file, at the root of the folder of the project, is mandatory
 
-By ** Estefania Ruiz** 🦌 From **Holberton School**🪐
+By **Estefania Ruiz** 🦌 From **Holberton School**🪐
