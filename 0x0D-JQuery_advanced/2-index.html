@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 2</title>
+        <!-- se utilizan para la comprobación de la integridad de los subrecursos (SRI) . Esto permite a los navegadores asegurarse de que los recursos alojados en servidores de terceros no hayan sido manipulados -->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <script type="application/javascript">
+            function createFamilyTree() {
+                $('body').append(`<table>
+                    <tr>
+                        <th>
+                            <h1>Firstname</h1>
+                        </th>
+                        <th>
+                            <h1>Lastname</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Guillaume</td>
+                        <td>Salva</td>
+                    </tr>
+                    <tr>
+                        <td>Paulette</td>
+                        <td>Salva</td>
+                    </tr><tr>
+                        <td>Antoine</td>
+                        <td>Salva</td>
+                    </tr>`)
+            }
+            createFamilyTree();
+        </script>
+    </body>
+
+</html>
