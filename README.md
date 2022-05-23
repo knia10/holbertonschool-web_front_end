@@ -8,6 +8,7 @@
 | 0x04. Flexbox | [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x04-Flexbox] |
 | 0x05-form | [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x05-form] |
 | 0x06. Responsive design | [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x06-responsive_design] |
+|0x0D-JQuery_advanced| [https://github.com/knia10/holbertonschool-web_front_end/tree/master/0x0D-JQuery_advanced] |
 
 
 By **Estefania Ruiz** 🦌 From **Holberton School** 🪐
