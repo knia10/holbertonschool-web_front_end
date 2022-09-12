@@ -1,5 +1,5 @@
 # 0x0D. jQuery advanced
-<img src = "https://colaninfotech.com/wp-content/uploads/2021/05/jqueryfirstleftios.png" width = 800px length = 300px>
+<img src = "https://colaninfotech.com/wp-content/uploads/2021/05/jqueryfirstleftios.png"> width = 800px length = 300px
 
 ## Learning Objectives 📖📑
 - 📖 Learn how to load jQuery from a CDN in a page
