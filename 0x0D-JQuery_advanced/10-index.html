@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 10</title>
+        <!-- se utilizan para la comprobación de la integridad de los subrecursos (SRI). Esto permite a los navegadores asegurarse de que los recursos alojados en servidores de terceros no hayan sido manipulados -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <script type="application/javascript">
+            $( document ).ready(function() {
+                function addPostRow(data) {
+                    $("body").append(`
+                        <p>
+                            <span>Post created with id ${data.id}, title: ${data.title}, author: ${data.author}</span>
+                        </p>
+                    `);
+                };
+                function listPosts() {
+                    $.get("http://localhost:3000/posts", function(result, status) {
+                        if (status === "success") {
+                            for (let i in result) {
+                                addPostRow(result[i]);
+                            }
+                        } else alert("Server Error");
+                    }
+                    );
+                };
+                listPosts();
+            });
+        </script>
+    </body>
+</html>

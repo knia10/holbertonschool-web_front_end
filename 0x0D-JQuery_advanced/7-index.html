@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 7</title>
+        <!-- se utilizan para la comprobación de la integridad de los subrecursos (SRI). Esto permite a los navegadores asegurarse de que los recursos alojados en servidores de terceros no hayan sido manipulados -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous">
+        </script>
+        
+    </head>
+    <body>
+        <script type="application/javascript">
+            $( document ).ready(function() {
+                function createSearchForm() {
+                    $("body").append("<input type=\"text\">", "<input type=\"submit\" value=\"Submit\">", "<ul>");
+                    $("input").last().addClass("submit");
+                    $(".submit").click(function() {
+                        let search = $("input").first().val();
+                        $("ul").empty();
+                        queryWikipedia(search);
+                    });
+                }
+                function addNewArticle(id, title, snippet) {
+                    let idRandom = Math.floor(Math.random() * Date.now())
+                    $("ul").append("<li>");
+                    $("li").last().addClass(`${idRandom}`);
+                    $(`.${idRandom}`).append("<p>", "<p>");
+                    $(`.${idRandom} p`).first().append(`<span>${id} - <b>${title}</b></span>`)
+                    $(`.${idRandom} p`).last().append(`${snippet}`);
+                }
+                function queryWikipedia(search) {
+                    $.ajax({
+                        type: "GET",
+                        url: `https://en.wikipedia.org/w/api.php?origin=*&action=query&list=search&srsearch=${search}&format=json`,
+                        success: function (result) {
+                            let arr = result.query.search;
+                            for (let i in arr) {
+                                addNewArticle(arr[i].pageid, arr[i].title, arr[i].snippet);
+                            }
+                        },
+                        error: function() {
+                            console.log("Something went wrong.");
+                        }
+                    })
+                }
+                createSearchForm();
+            });
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,64 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      },
+      {
+        "title": "fd",
+        "author": "fffff",
+        "id": 2
+      },
+      {
+        "title": "fd",
+        "author": "fffff",
+        "id": 3
+      },
+      {
+        "title": "f",
+        "author": "f",
+        "id": 4
+      },
+      {
+        "title": "console",
+        "author": "log",
+        "id": 5
+      },
+      {
+        "title": "orinagin",
+        "author": "ursula",
+        "id": 6
+      },
+      {
+        "title": "cotin",
+        "author": "cuellar rut",
+        "id": 7
+      },
+      {
+        "title": "gin",
+        "author": "calamaro",
+        "id": 8
+      },
+      {
+        "title": "vincon",
+        "author": "sandy",
+        "id": 9
+      },
+      {
+        "title": "",
+        "author": "",
+        "id": 10
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
